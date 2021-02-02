@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-01T14:06:34.200Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="I_KekXjKNNTf_PM6qKLx" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T12:15:22.633Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="GTCkDmaKEzHZ1ztvMhWv" version="14.2.9" type="github">
   <diagram id="cRLO50lA3OWglE_8R_6-" name="Page-1">
-    <mxGraphModel dx="934" dy="534" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1129" dy="645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,11 +94,8 @@
         <mxCell id="IJ-YJMvuUSulistW9r8D-47" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Conv + UpSampling&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="457.5" y="455" width="120" height="12" as="geometry" />
         </mxCell>
-        <mxCell id="IJ-YJMvuUSulistW9r8D-51" value="&lt;font face=&quot;helvetica&quot;&gt;Yolo Head&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="639" y="427" width="108" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="IJ-YJMvuUSulistW9r8D-52" value="&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34;&quot;&gt;Yolo Head&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="639" y="549" width="108" height="28" as="geometry" />
+        <mxCell id="IJ-YJMvuUSulistW9r8D-51" value="&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 11px&quot;&gt;Yolo Head(21, 38, 38)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="639" y="427" width="126" height="28" as="geometry" />
         </mxCell>
         <mxCell id="IJ-YJMvuUSulistW9r8D-53" value="&lt;font style=&quot;font-size: 17px&quot;&gt;FPN&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="412.5" y="401" width="42" height="14" as="geometry" />
@@ -126,6 +123,9 @@
             <mxPoint x="248" y="439.71" as="sourcePoint" />
             <mxPoint x="414" y="439.71" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="xDYbJ9-n01bd_F1xXgWW-7" value="&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 11px&quot;&gt;Yolo Head(21, 19, 19)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" vertex="1" parent="1">
+          <mxGeometry x="639" y="549" width="126" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
