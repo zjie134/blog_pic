@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-02T12:15:22.633Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="GTCkDmaKEzHZ1ztvMhWv" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-02T12:37:05.481Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36" etag="pi-Rqv5YY7PFW-KYkNYF" version="14.2.9" type="github">
   <diagram id="cRLO50lA3OWglE_8R_6-" name="Page-1">
     <mxGraphModel dx="1129" dy="645" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,11 +88,8 @@
         <mxCell id="IJ-YJMvuUSulistW9r8D-45" value="&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-family: &amp;#34;helvetica&amp;#34; ; font-style: normal ; font-weight: 400 ; letter-spacing: normal ; text-align: center ; text-indent: 0px ; text-transform: none ; word-spacing: 0px ; background-color: rgb(248 , 249 , 250) ; display: inline ; float: none ; font-size: 7px&quot;&gt;&lt;font style=&quot;font-size: 7px&quot;&gt;Concat&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="445" y="426" width="148" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="IJ-YJMvuUSulistW9r8D-46" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="457.5" y="454" width="123" height="19" as="geometry" />
-        </mxCell>
-        <mxCell id="IJ-YJMvuUSulistW9r8D-47" value="&lt;font style=&quot;font-size: 11px&quot;&gt;Conv + UpSampling&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=7;" parent="1" vertex="1">
-          <mxGeometry x="457.5" y="455" width="120" height="12" as="geometry" />
+        <mxCell id="IJ-YJMvuUSulistW9r8D-46" value="Conv + UpSampling" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
+          <mxGeometry x="457.5" y="493.5" width="123" height="19" as="geometry" />
         </mxCell>
         <mxCell id="IJ-YJMvuUSulistW9r8D-51" value="&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 11px&quot;&gt;Yolo Head(21, 38, 38)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="639" y="427" width="126" height="28" as="geometry" />
@@ -100,10 +97,10 @@
         <mxCell id="IJ-YJMvuUSulistW9r8D-53" value="&lt;font style=&quot;font-size: 17px&quot;&gt;FPN&lt;/font&gt;" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;fontSize=7;" parent="1" vertex="1">
           <mxGeometry x="412.5" y="401" width="42" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="xDYbJ9-n01bd_F1xXgWW-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IJ-YJMvuUSulistW9r8D-44">
+        <mxCell id="xDYbJ9-n01bd_F1xXgWW-2" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJ-YJMvuUSulistW9r8D-44" target="IJ-YJMvuUSulistW9r8D-46">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="519" y="534" as="sourcePoint" />
-            <mxPoint x="518.66" y="473" as="targetPoint" />
+            <mxPoint x="519" y="516" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xDYbJ9-n01bd_F1xXgWW-3" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IJ-YJMvuUSulistW9r8D-44">
@@ -126,6 +123,18 @@
         </mxCell>
         <mxCell id="xDYbJ9-n01bd_F1xXgWW-7" value="&lt;font face=&quot;helvetica&quot; style=&quot;font-size: 11px&quot;&gt;Yolo Head(21, 19, 19)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=7;" vertex="1" parent="1">
           <mxGeometry x="639" y="549" width="126" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="xDYbJ9-n01bd_F1xXgWW-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IJ-YJMvuUSulistW9r8D-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="518.8" y="490.5" as="sourcePoint" />
+            <mxPoint x="518.8" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xDYbJ9-n01bd_F1xXgWW-10" value="(128, 38, 38)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="516" y="465" width="77" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="xDYbJ9-n01bd_F1xXgWW-11" value="(256, 19, 19)" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="516" y="520" width="77" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
